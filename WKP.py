@@ -34,10 +34,10 @@ def load_lokatie():
     verbose=True
     #localdir='/home/corbee/Downloads/'
     locfiles=[
-      '3a.oppervlaktewaterlichamen_SGBP2_20151028.csv',
-      '3b.oppervlaktewaterlichamen_SGBP2_20170606.csv',
-      '3b.oppervlaktewaterlichamen_SGBP2_20171106.csv',
-      '3b.oppervlaktewaterlichamen_SGBP2_20181128.csv',  #one new NL18_SCHORE
+      '3a.oppervlaktewaterlichamen_SGBP2_20151028.csv.gz',
+      '3b.oppervlaktewaterlichamen_SGBP2_20170606.csv.gz',
+      '3b.oppervlaktewaterlichamen_SGBP2_20171106.csv.gz',
+      '3b.oppervlaktewaterlichamen_SGBP2_20181128.csv.gz',  #one new NL18_SCHORE
       '3b.oppervlaktewaterlichamen_addendum.csv',
       '3b.oppervlakte_allwaterbeheerders.csv' # file with all waterbodies 
      ]
@@ -72,12 +72,12 @@ def load_lokatie():
 #data2009 = '4.oordelen_owl_2009_20140507.csv'
 def load_oordeel():
     #localdir='/home/corbee/Downloads/'
-    datafiles= ['4.oordelen_owl_2009_20140507.csv',
-                '4.oordelen_ow_2014_20141117.csv',
-                '4.oordelen_owl_2015_20151028.csv',
-                '4.oordelen_owl_2016_20170124.csv',
-                '4.oordelen_owl_2017_20171120.csv',
-                '4.oordelen_owl_2018_20181116.csv'
+    datafiles= ['4.oordelen_owl_2009_20140507.csv.gz',
+                '4.oordelen_ow_2014_20141117.csv.gz',
+                '4.oordelen_owl_2015_20151028.csv.gz',
+                '4.oordelen_owl_2016_20170124.csv.gz',
+                '4.oordelen_owl_2017_20171120.csv.gz',
+                '4.oordelen_owl_2018_20181116.csv.gz'
                 ]
     dataframe=pd.DataFrame()
     for filename in datafiles:
@@ -104,9 +104,9 @@ def load_doelen():
     #localdir='/home/corbee/Downloads/'
     datafiles= [ 
                  #'4.doelen_ow_20141127.csv',
-                '4.doelen_owl_20151028.csv',
-                '4.doelen_owl_20170606.csv',
-                '4.doelen_owl_20171106.csv'
+                '4.doelen_owl_20151028.csv.gz',
+                '4.doelen_owl_20170606.csv.gz',
+                '4.doelen_owl_20171106.csv.gz'
                 ]
     rapportage=['2015','2016','2017']
     
