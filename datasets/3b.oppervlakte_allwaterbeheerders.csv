@@ -1,0 +1,926 @@
+index;versie;stroomgebieddistrict_code;waterlichaam_identificatie;waterbeheerder_omschrijving;waterbeheerder_code
+178;10;NLRN;NL02L1;Wetterskip FryslÃ¢n;NL02
+179;10;NLRN;NL02L10a;Wetterskip FryslÃ¢n;NL02
+180;10;NLRN;NL02L10b;Wetterskip FryslÃ¢n;NL02
+181;10;NLRN;NL02L11;Wetterskip FryslÃ¢n;NL02
+182;10;NLRN;NL02L12;Wetterskip FryslÃ¢n;NL02
+183;10;NLRN;NL02L13;Wetterskip FryslÃ¢n;NL02
+184;10;NLRN;NL02L14;Wetterskip FryslÃ¢n;NL02
+185;10;NLRN;NL02L16;Wetterskip FryslÃ¢n;NL02
+186;10;NLRN;NL02L2;Wetterskip FryslÃ¢n;NL02
+187;10;NLRN;NL02L3;Wetterskip FryslÃ¢n;NL02
+188;10;NLRN;NL02L4;Wetterskip FryslÃ¢n;NL02
+189;10;NLRN;NL02L9;Wetterskip FryslÃ¢n;NL02
+190;10;NLRN;NL02L9a;Wetterskip FryslÃ¢n;NL02
+191;10;NLRN;NL02L9b;Wetterskip FryslÃ¢n;NL02
+192;10;NLRN;NL02L9c;Wetterskip FryslÃ¢n;NL02
+193;10;NLRN;NL02L9d;Wetterskip FryslÃ¢n;NL02
+194;10;NLRN;NL02V1;Wetterskip FryslÃ¢n;NL02
+195;10;NLRN;NL02V10;Wetterskip FryslÃ¢n;NL02
+196;10;NLRN;NL02V11;Wetterskip FryslÃ¢n;NL02
+197;10;NLRN;NL02V12;Wetterskip FryslÃ¢n;NL02
+198;10;NLRN;NL02V4;Wetterskip FryslÃ¢n;NL02
+199;10;NLRN;NL02V5a;Wetterskip FryslÃ¢n;NL02
+200;10;NLRN;NL02V5b;Wetterskip FryslÃ¢n;NL02
+201;10;NLRN;NL02V9;Wetterskip FryslÃ¢n;NL02
+202;10;NLRN;NL04_AVERLOSCHE-LEIDING;Waterschap Drents Overijsselse Delta;NL04
+203;10;NLRN;NL04_BEENTJESGRAVEN;Waterschap Drents Overijsselse Delta;NL04
+204;10;NLRN;NL04_BREEBROEKS-LEIDING;Waterschap Drents Overijsselse Delta;NL04
+205;10;NLRN;NL04_BUITEN-REVE;Waterschap Drents Overijsselse Delta;NL04
+206;10;NLRN;NL04_BULDERS-LEIDING;Waterschap Drents Overijsselse Delta;NL04
+207;10;NLRN;NL04_DALFSERVELDWETERING;Waterschap Drents Overijsselse Delta;NL04
+208;10;NLRN;NL04_DALMSHOLTER-WATERL;Waterschap Drents Overijsselse Delta;NL04
+209;10;NLRN;NL04_DEDEMSVAARTa;Waterschap Drents Overijsselse Delta;NL04
+210;10;NLRN;NL04_EMMERTOCHT-SLOOT;Waterschap Drents Overijsselse Delta;NL04
+211;10;NLRN;NL04_GOOT-GANZEDIEP;Waterschap Drents Overijsselse Delta;NL04
+212;10;NLRN;NL04_GROOTE-GRIFTa;Waterschap Drents Overijsselse Delta;NL04
+213;10;NLRN;NL04_GROOTE-VLOEDGRAVEN;Waterschap Drents Overijsselse Delta;NL04
+214;10;NLRN;NL04_KLOOSTERZIELSTRENGa;Waterschap Drents Overijsselse Delta;NL04
+215;10;NLRN;NL04_KOLK-WETERING;Waterschap Drents Overijsselse Delta;NL04
+216;10;NLRN;NL04_KOSTVERLORENSTRENGa;Waterschap Drents Overijsselse Delta;NL04
+217;10;NLRN;NL04_LINDERTE-LEIDING;Waterschap Drents Overijsselse Delta;NL04
+218;10;NLRN;NL04_MARS-WETERING;Waterschap Drents Overijsselse Delta;NL04
+219;10;NLRN;NL04_MASTENBROEK;Waterschap Drents Overijsselse Delta;NL04
+220;10;NLRN;NL04_NOORD-ZUIDLEIDING;Waterschap Drents Overijsselse Delta;NL04
+221;10;NLRN;NL04_OOSTERBROEKS-WATER;Waterschap Drents Overijsselse Delta;NL04
+222;10;NLRN;NL04_OVERIJSSELSKNL-DEa;Waterschap Drents Overijsselse Delta;NL04
+223;10;NLRN;NL04_OVERIJSSELSKNL-ZWa;Waterschap Drents Overijsselse Delta;NL04
+224;10;NLRN;NL04_RAALTER-WETERING;Waterschap Drents Overijsselse Delta;NL04
+225;10;NLRN;NL04_RAMELER-LEIDING;Waterschap Drents Overijsselse Delta;NL04
+226;10;NLRN;NL04_SAL-NIEUWEWTR-BE;Waterschap Drents Overijsselse Delta;NL04
+227;10;NLRN;NL04_SAL-NIEUWEWTR-BO;Waterschap Drents Overijsselse Delta;NL04
+228;10;NLRN;NL04_SAL-SOESTWTR-BE;Waterschap Drents Overijsselse Delta;NL04
+229;10;NLRN;NL04_SAL-SOESTWTR-BO;Waterschap Drents Overijsselse Delta;NL04
+230;10;NLRN;NL04_SAL-SOESTWTR-MIDDEN;Waterschap Drents Overijsselse Delta;NL04
+231;10;NLRN;NL04_SAL-ZANDWETERING;Waterschap Drents Overijsselse Delta;NL04
+232;10;NLRN;NL04_STEEN-WETERINGa;Waterschap Drents Overijsselse Delta;NL04
+233;10;NLRN;NL04_STOUWE-LEIDING;Waterschap Drents Overijsselse Delta;NL04
+234;10;NLRN;NL04_UITWATERINGSKANAAL;Waterschap Drents Overijsselse Delta;NL04
+235;10;NLRN;NL04_WESTERVELDSE-AA;Waterschap Drents Overijsselse Delta;NL04
+236;10;NLRN;NL04_WITTEVEENS-LEIDING;Waterschap Drents Overijsselse Delta;NL04
+;10;NLRN;NL04_STEEN-WETERING;Waterschap Drents Overijsselse Delta;NL04
+;10;NLRN;NL04_DEDEMSVAART;Waterschap Drents Overijsselse Delta;NL04
+;10;NLRN;NL04_GROOTE-GRIFT;Waterschap Drents Overijsselse Delta;NL04
+;10;NLRN;NL04_KLOOSTERZIELSTRENG;Waterschap Drents Overijsselse Delta;NL04
+;10;NLRN;NL04_OVERIJSSELSKNL-ZW;Waterschap Drents Overijsselse Delta;NL04
+;10;NLRN;NL04_KOSTVERLORENSTRENG;Waterschap Drents Overijsselse Delta;NL04
+;10;NLRN;NL04_OVERIJSSELSKNL-DE;Waterschap Drents Overijsselse Delta;NL04
+237;10;NLRN;NL05_Azelerbeek;Waterschap Vechtstromen;NL05
+238;10;NLRN;NL05_Benedendinkel;Waterschap Vechtstromen;NL05
+239;10;NLRN;NL05_Benedenregge;Waterschap Vechtstromen;NL05
+240;10;NLRN;NL05_Bolscherbeek;Waterschap Vechtstromen;NL05
+241;10;NLRN;NL05_Bornsebeek;Waterschap Vechtstromen;NL05
+242;10;NLRN;NL05_Bovendinkel;Waterschap Vechtstromen;NL05
+243;10;NLRN;NL05_Bovenregge;Waterschap Vechtstromen;NL05
+244;10;NLRN;NL05_Broekbeek;Waterschap Vechtstromen;NL05
+245;10;NLRN;NL05_Drienerbeek;Waterschap Vechtstromen;NL05
+246;10;NLRN;NL05_Elsbeek;Waterschap Vechtstromen;NL05
+247;10;NLRN;NL05_Elsenerbeek;Waterschap Vechtstromen;NL05
+248;10;NLRN;NL05_Entergraven;Waterschap Vechtstromen;NL05
+249;10;NLRN;NL05_Exoscheaa;Waterschap Vechtstromen;NL05
+250;10;NLRN;NL05_Gammelkerbeek;Waterschap Vechtstromen;NL05
+251;10;NLRN;NL05_Geelebeek;Waterschap Vechtstromen;NL05
+252;10;NLRN;NL05_Geesterschemolenbk;Waterschap Vechtstromen;NL05
+253;10;NLRN;NL05_Glanerbeek;Waterschap Vechtstromen;NL05
+254;10;NLRN;NL05_Hagmolenbeek;Waterschap Vechtstromen;NL05
+255;10;NLRN;NL05_Hammerwetering;Waterschap Vechtstromen;NL05
+256;10;NLRN;NL05_Hoogelaarsleiding;Waterschap Vechtstromen;NL05
+257;10;NLRN;NL05_Itterbeek;Waterschap Vechtstromen;NL05
+258;10;NLRN;NL05_Linderbeek;Waterschap Vechtstromen;NL05
+259;10;NLRN;NL05_Lolee;Waterschap Vechtstromen;NL05
+260;10;NLRN;NL05_Markgraven;Waterschap Vechtstromen;NL05
+261;10;NLRN;NL05_Middendinkel;Waterschap Vechtstromen;NL05
+262;10;NLRN;NL05_Middenregge;Waterschap Vechtstromen;NL05
+263;10;NLRN;NL05_Oudebornschebeek;Waterschap Vechtstromen;NL05
+264;10;NLRN;NL05_Poelsbeek;Waterschap Vechtstromen;NL05
+265;10;NLRN;NL05_Puntbeek;Waterschap Vechtstromen;NL05
+266;10;NLRN;NL05_Ruenbergerbeek;Waterschap Vechtstromen;NL05
+267;10;NLRN;NL05_Tilligterbeek;Waterschap Vechtstromen;NL05
+268;10;NLRN;NL05_Veeneleiding;Waterschap Vechtstromen;NL05
+269;10;NLRN;NL05_Westerbouwlandl;Waterschap Vechtstromen;NL05
+270;10;NLRN;NL07_0001;Waterschap Rijn en IJssel;NL07
+271;10;NLRN;NL07_0002;Waterschap Rijn en IJssel;NL07
+272;10;NLRN;NL07_0003;Waterschap Rijn en IJssel;NL07
+273;10;NLRN;NL07_0004;Waterschap Rijn en IJssel;NL07
+274;10;NLRN;NL07_0005;Waterschap Rijn en IJssel;NL07
+275;10;NLRN;NL07_0006;Waterschap Rijn en IJssel;NL07
+276;10;NLRN;NL07_0007;Waterschap Rijn en IJssel;NL07
+277;10;NLRN;NL07_0008;Waterschap Rijn en IJssel;NL07
+278;10;NLRN;NL07_0009;Waterschap Rijn en IJssel;NL07
+279;10;NLRN;NL07_0010;Waterschap Rijn en IJssel;NL07
+280;10;NLRN;NL07_0011;Waterschap Rijn en IJssel;NL07
+281;10;NLRN;NL07_0012;Waterschap Rijn en IJssel;NL07
+282;10;NLRN;NL07_0013_1;Waterschap Rijn en IJssel;NL07
+283;10;NLRN;NL07_0014_1;Waterschap Rijn en IJssel;NL07
+284;10;NLRN;NL07_0014_2;Waterschap Rijn en IJssel;NL07
+285;10;NLRN;NL07_0015;Waterschap Rijn en IJssel;NL07
+286;10;NLRN;NL07_0016;Waterschap Rijn en IJssel;NL07
+287;10;NLRN;NL07_0017;Waterschap Rijn en IJssel;NL07
+288;10;NLRN;NL07_0018;Waterschap Rijn en IJssel;NL07
+289;10;NLRN;NL07_0019;Waterschap Rijn en IJssel;NL07
+290;10;NLRN;NL07_0020;Waterschap Rijn en IJssel;NL07
+291;10;NLRN;NL07_0021;Waterschap Rijn en IJssel;NL07
+292;10;NLRN;NL07_0022;Waterschap Rijn en IJssel;NL07
+293;10;NLRN;NL07_0023_1;Waterschap Rijn en IJssel;NL07
+294;10;NLRN;NL07_0024_1;Waterschap Rijn en IJssel;NL07
+295;10;NLRN;NL07_0025;Waterschap Rijn en IJssel;NL07
+296;10;NLRN;NL07_0026_1;Waterschap Rijn en IJssel;NL07
+297;10;NLRN;NL07_0027;Waterschap Rijn en IJssel;NL07
+298;10;NLRN;NL07_0028;Waterschap Rijn en IJssel;NL07
+299;10;NLRN;NL07_0029;Waterschap Rijn en IJssel;NL07
+300;10;NLRN;NL07_0030;Waterschap Rijn en IJssel;NL07
+301;10;NLRN;NL07_0031;Waterschap Rijn en IJssel;NL07
+302;10;NLRN;NL07_0032_1;Waterschap Rijn en IJssel;NL07
+303;10;NLRN;NL07_0033;Waterschap Rijn en IJssel;NL07
+304;10;NLRN;NL07_0034_1;Waterschap Rijn en IJssel;NL07
+305;10;NLRN;NL07_0035;Waterschap Rijn en IJssel;NL07
+;10;NLRN;NL07_0023;Waterschap Rijn en IJssel;NL07
+;10;NLRN;NL07_0032;Waterschap Rijn en IJssel;NL07
+;10;NLRN;NL07_0014;Waterschap Rijn en IJssel;NL07
+;10;NLRN;NL07_0026;Waterschap Rijn en IJssel;NL07
+;10;NLRN;NL07_0013;Waterschap Rijn en IJssel;NL07
+;10;NLRN;NL07_0024;Waterschap Rijn en IJssel;NL07
+;10;NLRN;NL07_0034;Waterschap Rijn en IJssel;NL07
+306;10;NLRN;NL09_01_2;Waterschap Rivierenland;NL09
+307;10;NLRN;NL09_02_2;Waterschap Rivierenland;NL09
+308;10;NLRN;NL09_03_2;Waterschap Rivierenland;NL09
+309;10;NLRN;NL09_04_2;Waterschap Rivierenland;NL09
+310;10;NLRN;NL09_05_2;Waterschap Rivierenland;NL09
+311;10;NLRN;NL09_06_2;Waterschap Rivierenland;NL09
+312;10;NLRN;NL09_07_2;Waterschap Rivierenland;NL09
+313;10;NLRN;NL09_08_2;Waterschap Rivierenland;NL09
+314;10;NLRN;NL09_09_2;Waterschap Rivierenland;NL09
+315;10;NLRN;NL09_10_2;Waterschap Rivierenland;NL09
+316;10;NLRN;NL09_11_2;Waterschap Rivierenland;NL09
+317;10;NLRN;NL09_12_2;Waterschap Rivierenland;NL09
+318;10;NLRN;NL09_13_2;Waterschap Rivierenland;NL09
+319;10;NLRN;NL09_14_2;Waterschap Rivierenland;NL09
+320;10;NLRN;NL09_15_2;Waterschap Rivierenland;NL09
+321;10;NLRN;NL09_17_2;Waterschap Rivierenland;NL09
+322;10;NLRN;NL09_18_2;Waterschap Rivierenland;NL09
+323;10;NLRN;NL09_19_2;Waterschap Rivierenland;NL09
+324;10;NLRN;NL09_20_2;Waterschap Rivierenland;NL09
+325;10;NLRN;NL09_21_2;Waterschap Rivierenland;NL09
+326;10;NLRN;NL09_22_2;Waterschap Rivierenland;NL09
+327;10;NLRN;NL09_23_2;Waterschap Rivierenland;NL09
+328;10;NLRN;NL09_24_2;Waterschap Rivierenland;NL09
+329;10;NLRN;NL09_25_2;Waterschap Rivierenland;NL09
+330;10;NLRN;NL09_26_2;Waterschap Rivierenland;NL09
+331;10;NLRN;NL09_27_2;Waterschap Rivierenland;NL09
+332;10;NLRN;NL09_28_2;Waterschap Rivierenland;NL09
+333;10;NLRN;NL09_29_2;Waterschap Rivierenland;NL09
+334;10;NLRN;NL09_30_2;Waterschap Rivierenland;NL09
+335;10;NLRN;NL09_31_2;Waterschap Rivierenland;NL09
+;10;NLRN;NL09_11;Waterschap Rivierenland;NL09
+;10;NLRN;NL09_06;Waterschap Rivierenland;NL09
+;10;NLRN;NL09_21;Waterschap Rivierenland;NL09
+;10;NLRN;NL09_23;Waterschap Rivierenland;NL09
+;10;NLRN;NL09_01;Waterschap Rivierenland;NL09
+;10;NLRN;NL09_13;Waterschap Rivierenland;NL09
+;10;NLRN;NL09_29;Waterschap Rivierenland;NL09
+;10;NLRN;NL09_27;Waterschap Rivierenland;NL09
+;10;NLRN;NL09_14;Waterschap Rivierenland;NL09
+;10;NLRN;NL09_22;Waterschap Rivierenland;NL09
+;10;NLRN;NL09_20;Waterschap Rivierenland;NL09
+;10;NLRN;NL09_31;Waterschap Rivierenland;NL09
+;10;NLRN;NL09_26;Waterschap Rivierenland;NL09
+;10;NLRN;NL09_24;Waterschap Rivierenland;NL09
+;10;NLRN;NL09_25;Waterschap Rivierenland;NL09
+;10;NLRN;NL09_28;Waterschap Rivierenland;NL09
+;10;NLRN;NL09_08;Waterschap Rivierenland;NL09
+;10;NLRN;NL09_18;Waterschap Rivierenland;NL09
+;10;NLRN;NL09_02;Waterschap Rivierenland;NL09
+;10;NLRN;NL09_17;Waterschap Rivierenland;NL09
+;10;NLRN;NL09_15;Waterschap Rivierenland;NL09
+;10;NLRN;NL09_03;Waterschap Rivierenland;NL09
+;10;NLRN;NL09_04;Waterschap Rivierenland;NL09
+;10;NLRN;NL09_05;Waterschap Rivierenland;NL09
+;10;NLRN;NL09_10;Waterschap Rivierenland;NL09
+;10;NLRN;NL09_16;Waterschap Rivierenland;NL09
+;10;NLRN;NL09_30;Waterschap Rivierenland;NL09
+;10;NLRN;NL09_12;Waterschap Rivierenland;NL09
+;10;NLRN;NL09_09;Waterschap Rivierenland;NL09
+;10;NLRN;NL09_19;Waterschap Rivierenland;NL09
+;10;NLRN;NL09_07;Waterschap Rivierenland;NL09
+336;10;NLRN;NL11_1_1;Hoogheemraadschap Amstel;NL11
+337;10;NLRN;NL11_1_2;Hoogheemraadschap Amstel;NL11
+338;10;NLRN;NL11_2_1;Hoogheemraadschap Amstel;NL11
+339;10;NLRN;NL11_2_2;Hoogheemraadschap Amstel;NL11
+340;10;NLRN;NL11_2_3;Hoogheemraadschap Amstel;NL11
+341;10;NLRN;NL11_2_4;Hoogheemraadschap Amstel;NL11
+342;10;NLRN;NL11_2_5;Hoogheemraadschap Amstel;NL11
+343;10;NLRN;NL11_2_6;Hoogheemraadschap Amstel;NL11
+344;10;NLRN;NL11_2_7;Hoogheemraadschap Amstel;NL11
+345;10;NLRN;NL11_3_1;Hoogheemraadschap Amstel;NL11
+346;10;NLRN;NL11_3_2;Hoogheemraadschap Amstel;NL11
+347;10;NLRN;NL11_3_3;Hoogheemraadschap Amstel;NL11
+348;10;NLRN;NL11_3_4;Hoogheemraadschap Amstel;NL11
+349;10;NLRN;NL11_3_6;Hoogheemraadschap Amstel;NL11
+350;10;NLRN;NL11_3_7;Hoogheemraadschap Amstel;NL11
+351;10;NLRN;NL11_3_8;Hoogheemraadschap Amstel;NL11
+352;10;NLRN;NL11_3_9;Hoogheemraadschap Amstel;NL11
+353;10;NLRN;NL11_4_1;Hoogheemraadschap Amstel;NL11
+354;10;NLRN;NL11_5_1;Hoogheemraadschap Amstel;NL11
+355;10;NLRN;NL11_5_3;Hoogheemraadschap Amstel;NL11
+356;10;NLRN;NL11_5_4;Hoogheemraadschap Amstel;NL11
+357;10;NLRN;NL11_6_1;Hoogheemraadschap Amstel;NL11
+358;10;NLRN;NL11_6_2;Hoogheemraadschap Amstel;NL11
+359;10;NLRN;NL11_6_3;Hoogheemraadschap Amstel;NL11
+360;10;NLRN;NL11_6_4;Hoogheemraadschap Amstel;NL11
+361;10;NLRN;NL11_6_5;Hoogheemraadschap Amstel;NL11
+362;10;NLRN;NL11_7_1;Hoogheemraadschap Amstel;NL11
+363;10;NLRN;NL11_7_2;Hoogheemraadschap Amstel;NL11
+364;10;NLRN;NL11_8_1;Hoogheemraadschap Amstel;NL11
+365;10;NLRN;NL11_8_2;Hoogheemraadschap Amstel;NL11
+366;10;NLRN;NL12_110;Hoogheemraadschap Hollands Noorderkwartier;NL12
+367;10;NLRN;NL12_120;Hoogheemraadschap Hollands Noorderkwartier;NL12
+368;10;NLRN;NL12_130;Hoogheemraadschap Hollands Noorderkwartier;NL12
+369;10;NLRN;NL12_140;Hoogheemraadschap Hollands Noorderkwartier;NL12
+370;10;NLRN;NL12_201;Hoogheemraadschap Hollands Noorderkwartier;NL12
+371;10;NLRN;NL12_202;Hoogheemraadschap Hollands Noorderkwartier;NL12
+372;10;NLRN;NL12_210;Hoogheemraadschap Hollands Noorderkwartier;NL12
+373;10;NLRN;NL12_220;Hoogheemraadschap Hollands Noorderkwartier;NL12
+374;10;NLRN;NL12_230;Hoogheemraadschap Hollands Noorderkwartier;NL12
+375;10;NLRN;NL12_240;Hoogheemraadschap Hollands Noorderkwartier;NL12
+376;10;NLRN;NL12_250;Hoogheemraadschap Hollands Noorderkwartier;NL12
+377;10;NLRN;NL12_260;Hoogheemraadschap Hollands Noorderkwartier;NL12
+378;10;NLRN;NL12_280;Hoogheemraadschap Hollands Noorderkwartier;NL12
+379;10;NLRN;NL12_311;Hoogheemraadschap Hollands Noorderkwartier;NL12
+380;10;NLRN;NL12_312;Hoogheemraadschap Hollands Noorderkwartier;NL12
+381;10;NLRN;NL12_320;Hoogheemraadschap Hollands Noorderkwartier;NL12
+382;10;NLRN;NL12_330;Hoogheemraadschap Hollands Noorderkwartier;NL12
+383;10;NLRN;NL12_340;Hoogheemraadschap Hollands Noorderkwartier;NL12
+384;10;NLRN;NL12_401;Hoogheemraadschap Hollands Noorderkwartier;NL12
+385;10;NLRN;NL12_410;Hoogheemraadschap Hollands Noorderkwartier;NL12
+386;10;NLRN;NL12_415;Hoogheemraadschap Hollands Noorderkwartier;NL12
+387;10;NLRN;NL12_420;Hoogheemraadschap Hollands Noorderkwartier;NL12
+388;10;NLRN;NL12_425;Hoogheemraadschap Hollands Noorderkwartier;NL12
+389;10;NLRN;NL12_430;Hoogheemraadschap Hollands Noorderkwartier;NL12
+390;10;NLRN;NL12_440;Hoogheemraadschap Hollands Noorderkwartier;NL12
+391;10;NLRN;NL12_445;Hoogheemraadschap Hollands Noorderkwartier;NL12
+392;10;NLRN;NL12_450;Hoogheemraadschap Hollands Noorderkwartier;NL12
+393;10;NLRN;NL12_460;Hoogheemraadschap Hollands Noorderkwartier;NL12
+394;10;NLRN;NL12_470;Hoogheemraadschap Hollands Noorderkwartier;NL12
+395;10;NLRN;NL12_480;Hoogheemraadschap Hollands Noorderkwartier;NL12
+396;10;NLRN;NL12_490;Hoogheemraadschap Hollands Noorderkwartier;NL12
+397;10;NLRN;NL12_501;Hoogheemraadschap Hollands Noorderkwartier;NL12
+398;10;NLRN;NL12_510;Hoogheemraadschap Hollands Noorderkwartier;NL12
+399;10;NLRN;NL12_520;Hoogheemraadschap Hollands Noorderkwartier;NL12
+400;10;NLRN;NL12_530;Hoogheemraadschap Hollands Noorderkwartier;NL12
+401;10;NLRN;NL12_540;Hoogheemraadschap Hollands Noorderkwartier;NL12
+402;10;NLRN;NL12_550;Hoogheemraadschap Hollands Noorderkwartier;NL12
+403;10;NLRN;NL12_610;Hoogheemraadschap Hollands Noorderkwartier;NL12
+404;10;NLRN;NL12_620;Hoogheemraadschap Hollands Noorderkwartier;NL12
+405;10;NLRN;NL12_630;Hoogheemraadschap Hollands Noorderkwartier;NL12
+406;10;NLRN;NL12_710;Hoogheemraadschap Hollands Noorderkwartier;NL12
+407;10;NLRN;NL12_720;Hoogheemraadschap Hollands Noorderkwartier;NL12
+408;10;NLRN;NL12_730;Hoogheemraadschap Hollands Noorderkwartier;NL12
+409;10;NLRN;NL12_740;Hoogheemraadschap Hollands Noorderkwartier;NL12
+410;10;NLRN;NL12_750;Hoogheemraadschap Hollands Noorderkwartier;NL12
+411;10;NLRN;NL12_760;Hoogheemraadschap Hollands Noorderkwartier;NL12
+412;10;NLRN;NL12_770;Hoogheemraadschap Hollands Noorderkwartier;NL12
+413;10;NLRN;NL12_810;Hoogheemraadschap Hollands Noorderkwartier;NL12
+414;10;NLRN;NL12_820;Hoogheemraadschap Hollands Noorderkwartier;NL12
+415;10;NLRN;NL12_830;Hoogheemraadschap Hollands Noorderkwartier;NL12
+416;10;NLRN;NL12_840;Hoogheemraadschap Hollands Noorderkwartier;NL12
+;10;NLRN;NL12_755;Hoogheemraadschap Hollands Noorderkwartier;NL12
+;10;NLRN;NL12_560;Hoogheemraadschap Hollands Noorderkwartier;NL12
+;10;NLRN;NL12_780;Hoogheemraadschap Hollands Noorderkwartier;NL12
+417;10;NLRN;NL13_01;Hoogheemraadschap van Rijnland;NL13
+418;10;NLRN;NL13_02;Hoogheemraadschap van Rijnland;NL13
+419;10;NLRN;NL13_03;Hoogheemraadschap van Rijnland;NL13
+420;10;NLRN;NL13_04;Hoogheemraadschap van Rijnland;NL13
+421;10;NLRN;NL13_05;Hoogheemraadschap van Rijnland;NL13
+422;10;NLRN;NL13_06_2;Hoogheemraadschap van Rijnland;NL13
+423;10;NLRN;NL13_07;Hoogheemraadschap van Rijnland;NL13
+424;10;NLRN;NL13_08_2;Hoogheemraadschap van Rijnland;NL13
+425;10;NLRN;NL13_09;Hoogheemraadschap van Rijnland;NL13
+426;10;NLRN;NL13_10;Hoogheemraadschap van Rijnland;NL13
+427;10;NLRN;NL13_11;Hoogheemraadschap van Rijnland;NL13
+428;10;NLRN;NL13_12;Hoogheemraadschap van Rijnland;NL13
+429;10;NLRN;NL13_13;Hoogheemraadschap van Rijnland;NL13
+430;10;NLRN;NL13_14;Hoogheemraadschap van Rijnland;NL13
+431;10;NLRN;NL13_16_2;Hoogheemraadschap van Rijnland;NL13
+432;10;NLRN;NL13_17_2;Hoogheemraadschap van Rijnland;NL13
+433;10;NLRN;NL13_18;Hoogheemraadschap van Rijnland;NL13
+434;10;NLRN;NL13_19;Hoogheemraadschap van Rijnland;NL13
+435;10;NLRN;NL13_20;Hoogheemraadschap van Rijnland;NL13
+436;10;NLRN;NL13_21;Hoogheemraadschap van Rijnland;NL13
+437;10;NLRN;NL13_22;Hoogheemraadschap van Rijnland;NL13
+438;10;NLRN;NL13_23;Hoogheemraadschap van Rijnland;NL13
+439;10;NLRN;NL13_25_2;Hoogheemraadschap van Rijnland;NL13
+440;10;NLRN;NL13_26_2;Hoogheemraadschap van Rijnland;NL13
+441;10;NLRN;NL13_27_2;Hoogheemraadschap van Rijnland;NL13
+442;10;NLRN;NL13_28;Hoogheemraadschap van Rijnland;NL13
+443;10;NLRN;NL13_29;Hoogheemraadschap van Rijnland;NL13
+444;10;NLRN;NL13_30;Hoogheemraadschap van Rijnland;NL13
+445;10;NLRN;NL13_31;Hoogheemraadschap van Rijnland;NL13
+446;10;NLRN;NL13_32_2;Hoogheemraadschap van Rijnland;NL13
+447;10;NLRN;NL13_33_2;Hoogheemraadschap van Rijnland;NL13
+448;10;NLRN;NL13_34;Hoogheemraadschap van Rijnland;NL13
+449;10;NLRN;NL13_35;Hoogheemraadschap van Rijnland;NL13
+450;10;NLRN;NL13_36;Hoogheemraadschap van Rijnland;NL13
+451;10;NLRN;NL13_38_2;Hoogheemraadschap van Rijnland;NL13
+452;10;NLRN;NL13_40_2;Hoogheemraadschap van Rijnland;NL13
+453;10;NLRN;NL13_44;Hoogheemraadschap van Rijnland;NL13
+454;10;NLRN;NL13_45;Hoogheemraadschap van Rijnland;NL13
+455;10;NLRN;NL13_46;Hoogheemraadschap van Rijnland;NL13
+456;10;NLRN;NL13_47;Hoogheemraadschap van Rijnland;NL13
+;10;NLRN;NL13_27;Hoogheemraadschap van Rijnland;NL13
+;10;NLRN;NL13_32;Hoogheemraadschap van Rijnland;NL13
+;10;NLRN;NL13_26;Hoogheemraadschap van Rijnland;NL13
+;10;NLRN;NL13_40;Hoogheemraadschap van Rijnland;NL13
+;10;NLRN;NL13_41;Hoogheemraadschap van Rijnland;NL13
+;10;NLRN;NL13_08;Hoogheemraadschap van Rijnland;NL13
+;10;NLRN;NL13_43;Hoogheemraadschap van Rijnland;NL13
+;10;NLRN;NL13_25;Hoogheemraadschap van Rijnland;NL13
+;10;NLRN;NL13_38;Hoogheemraadschap van Rijnland;NL13
+;10;NLRN;NL13_37;Hoogheemraadschap van Rijnland;NL13
+;10;NLRN;NL13_39;Hoogheemraadschap van Rijnland;NL13
+;10;NLRN;NL13_16;Hoogheemraadschap van Rijnland;NL13
+;10;NLRN;NL13_06;Hoogheemraadschap van Rijnland;NL13
+;10;NLRN;NL13_17;Hoogheemraadschap van Rijnland;NL13
+;10;NLRN;NL13_42;Hoogheemraadschap van Rijnland;NL13
+;10;NLRN;NL13_33;Hoogheemraadschap van Rijnland;NL13
+457;10;NLRN;NL14_01;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+458;10;NLRN;NL14_02;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+459;10;NLRN;NL14_03;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+460;10;NLRN;NL14_04;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+461;10;NLRN;NL14_05;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+462;10;NLRN;NL14_06;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+463;10;NLRN;NL14_07;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+464;10;NLRN;NL14_08;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+465;10;NLRN;NL14_09;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+466;10;NLRN;NL14_1;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+467;10;NLRN;NL14_10;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+468;10;NLRN;NL14_11;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+469;10;NLRN;NL14_12;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+470;10;NLRN;NL14_13;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+471;10;NLRN;NL14_15;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+472;10;NLRN;NL14_16;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+473;10;NLRN;NL14_18;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+474;10;NLRN;NL14_19;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+475;10;NLRN;NL14_2;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+476;10;NLRN;NL14_20;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+477;10;NLRN;NL14_21;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+478;10;NLRN;NL14_22;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+479;10;NLRN;NL14_23;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+480;10;NLRN;NL14_24;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+481;10;NLRN;NL14_25;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+482;10;NLRN;NL14_26;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+483;10;NLRN;NL14_27;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+484;10;NLRN;NL14_28;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+485;10;NLRN;NL14_29;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+486;10;NLRN;NL14_3;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+487;10;NLRN;NL14_30;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+488;10;NLRN;NL14_31;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+489;10;NLRN;NL14_32;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+490;10;NLRN;NL14_4;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+491;10;NLRN;NL14_5;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+492;10;NLRN;NL14_6;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+493;10;NLRN;NL14_7;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+494;10;NLRN;NL14_8;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+495;10;NLRN;NL14_9;Hoogheemraadschap De Stichtse Rijnlanden;NL14
+496;10;NLRN;NL15_01;Hoogheemraadschap van Delfland;NL15
+497;10;NLRN;NL15_02;Hoogheemraadschap van Delfland;NL15
+498;10;NLRN;NL15_04;Hoogheemraadschap van Delfland;NL15
+499;10;NLRN;NL15_05;Hoogheemraadschap van Delfland;NL15
+500;10;NLRN;NL15_06;Hoogheemraadschap van Delfland;NL15
+501;10;NLRN;NL15_07;Hoogheemraadschap van Delfland;NL15
+502;10;NLRN;NL15_08;Hoogheemraadschap van Delfland;NL15
+666;10;NLSC;NL18_ADRIAAN;Waterschap'scheldestromen;NL18
+667;10;NLSC;NL18_BATH;Waterschap'scheldestromen;NL18
+668;10;NLSC;NL18_BATHOOST;Waterschap'scheldestromen;NL18
+669;10;NLSC;NL18_BOREEL;Waterschap'scheldestromen;NL18
+670;10;NLSC;NL18_BORSSELE;Waterschap'scheldestromen;NL18
+671;10;NLSC;NL18_DEKKER;Waterschap'scheldestromen;NL18
+672;10;NLSC;NL18_DREISCHOR;Waterschap'scheldestromen;NL18
+673;10;NLSC;NL18_DUIV_OOSTERLAND;Waterschap'scheldestromen;NL18
+674;10;NLSC;NL18_DUIV_OUWERKERK;Waterschap'scheldestromen;NL18
+675;10;NLSC;NL18_EENDRACHT;Waterschap'scheldestromen;NL18
+676;10;NLSC;NL18_GLERUM;Waterschap'scheldestromen;NL18
+677;10;NLSC;NL18_HELLEWOUD;Waterschap'scheldestromen;NL18
+678;10;NLSC;NL18_KANDWCRN;Waterschap'scheldestromen;NL18
+679;10;NLSC;NL18_KLEVERSKERKE;Waterschap'scheldestromen;NL18
+680;10;NLSC;NL18_LOOHOEK;Waterschap'scheldestromen;NL18
+681;10;NLSC;NL18_LUYSTER;Waterschap'scheldestromen;NL18
+682;10;NLSC;NL18_MAELSTEDE;Waterschap'scheldestromen;NL18
+683;10;NLSC;NL18_OOSTERLAND;Waterschap'scheldestromen;NL18
+684;10;NLSC;NL18_PIET;Waterschap'scheldestromen;NL18
+685;10;NLSC;NL18_POPPEKINDEREN;Waterschap'scheldestromen;NL18
+686;10;NLSC;NL18_SAS;Waterschap'scheldestromen;NL18
+687;10;NLSC;NL18_SCHORE;Waterschap'scheldestromen;NL18
+688;10;NLSC;NL18_SCHOUWEN;Waterschap'scheldestromen;NL18
+689;10;NLSC;NL18_STAVENISSE;Waterschap'scheldestromen;NL18
+690;10;NLSC;NL18_STMAARTENSDIJK;Waterschap'scheldestromen;NL18
+691;10;NLSC;NL18_VALLE;Waterschap'scheldestromen;NL18
+692;10;NLSC;NL18_WAARDE;Waterschap'scheldestromen;NL18
+693;10;NLSC;NL18_WILHELMINA;Waterschap'scheldestromen;NL18
+694;10;NLSC;NL18_WILLEM;Waterschap'scheldestromen;NL18
+695;10;NLSC;NL18_YERSEKE;Waterschap'scheldestromen;NL18
+696;10;NLSC;NL18_ZUIDWATERING;Waterschap'scheldestromen;NL18
+21;10;NLMS;NL19_41_2;Waterschap Hollandse Delta;NL19
+22;10;NLMS;NL19_42_2;Waterschap Hollandse Delta;NL19
+23;10;NLMS;NL19_43_2;Waterschap Hollandse Delta;NL19
+24;10;NLMS;NL19_44_2;Waterschap Hollandse Delta;NL19
+25;10;NLMS;NL19_45_2;Waterschap Hollandse Delta;NL19
+26;10;NLMS;NL19_46_2;Waterschap Hollandse Delta;NL19
+27;10;NLMS;NL19_47_2;Waterschap Hollandse Delta;NL19
+28;10;NLMS;NL19_48_2;Waterschap Hollandse Delta;NL19
+29;10;NLMS;NL19_49_2;Waterschap Hollandse Delta;NL19
+30;10;NLMS;NL19_50_2;Waterschap Hollandse Delta;NL19
+31;10;NLMS;NL19_51_2;Waterschap Hollandse Delta;NL19
+32;10;NLMS;NL19_52_2;Waterschap Hollandse Delta;NL19
+33;10;NLMS;NL19_53_2;Waterschap Hollandse Delta;NL19
+34;10;NLMS;NL19_54_2;Waterschap Hollandse Delta;NL19
+503;10;NLRN;NL19_01_2;Waterschap Hollandse Delta;NL19
+504;10;NLRN;NL19_02_2;Waterschap Hollandse Delta;NL19
+505;10;NLRN;NL19_03_2;Waterschap Hollandse Delta;NL19
+506;10;NLRN;NL19_04_2;Waterschap Hollandse Delta;NL19
+507;10;NLRN;NL19_05_2;Waterschap Hollandse Delta;NL19
+508;10;NLRN;NL19_06_2;Waterschap Hollandse Delta;NL19
+509;10;NLRN;NL19_07_2;Waterschap Hollandse Delta;NL19
+510;10;NLRN;NL19_08_2;Waterschap Hollandse Delta;NL19
+511;10;NLRN;NL19_09_2;Waterschap Hollandse Delta;NL19
+512;10;NLRN;NL19_10_2;Waterschap Hollandse Delta;NL19
+513;10;NLRN;NL19_11_2;Waterschap Hollandse Delta;NL19
+514;10;NLRN;NL19_12_2;Waterschap Hollandse Delta;NL19
+515;10;NLRN;NL19_13_2;Waterschap Hollandse Delta;NL19
+516;10;NLRN;NL19_14_2;Waterschap Hollandse Delta;NL19
+517;10;NLRN;NL19_15_2;Waterschap Hollandse Delta;NL19
+518;10;NLRN;NL19_16_2;Waterschap Hollandse Delta;NL19
+519;10;NLRN;NL19_17_2;Waterschap Hollandse Delta;NL19
+520;10;NLRN;NL19_18_2;Waterschap Hollandse Delta;NL19
+521;10;NLRN;NL19_19_2;Waterschap Hollandse Delta;NL19
+522;10;NLRN;NL19_20_2;Waterschap Hollandse Delta;NL19
+523;10;NLRN;NL19_21_2;Waterschap Hollandse Delta;NL19
+524;10;NLRN;NL19_22_2;Waterschap Hollandse Delta;NL19
+525;10;NLRN;NL19_23_2;Waterschap Hollandse Delta;NL19
+526;10;NLRN;NL19_24_2;Waterschap Hollandse Delta;NL19
+527;10;NLRN;NL19_25_2;Waterschap Hollandse Delta;NL19
+528;10;NLRN;NL19_26_2;Waterschap Hollandse Delta;NL19
+529;10;NLRN;NL19_27_2;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_15;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_22;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_54;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_17;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_06;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_21;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_14;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_24;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_05;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_26;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_16;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_13;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_25;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_51;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_44;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_53;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_09;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_18;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_01;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_11;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_08;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_42;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_43;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_20;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_45;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_46;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_27;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_07;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_52;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_49;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_04;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_10;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_12;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_02;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_48;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_03;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_50;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_41;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_47;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_19;Waterschap Hollandse Delta;NL19
+;10;NLRN;NL19_23;Waterschap Hollandse Delta;NL19
+697;10;NLSC;NL23_BRKMN;Waterschap'scheldestromen;NL23
+698;10;NLSC;NL23_CDZND;Waterschap'scheldestromen;NL23
+699;10;NLSC;NL23_CMPN;Waterschap'scheldestromen;NL23
+700;10;NLSC;NL23_NLZVN;Waterschap'scheldestromen;NL23
+701;10;NLSC;NL23_NREEN;Waterschap'scheldestromen;NL23
+702;10;NLSC;NL23_NWSLS;Waterschap'scheldestromen;NL23
+703;10;NLSC;NL23_OTHNE;Waterschap'scheldestromen;NL23
+704;10;NLSC;NL23_PAAL;Waterschap'scheldestromen;NL23
+35;10;NLMS;NL25_13;Waterschap Brabantse Delta;NL25
+36;10;NLMS;NL25_16;Waterschap Brabantse Delta;NL25
+37;10;NLMS;NL25_18;Waterschap Brabantse Delta;NL25
+38;10;NLMS;NL25_22;Waterschap Brabantse Delta;NL25
+39;10;NLMS;NL25_30;Waterschap Brabantse Delta;NL25
+40;10;NLMS;NL25_34;Waterschap Brabantse Delta;NL25
+41;10;NLMS;NL25_35;Waterschap Brabantse Delta;NL25
+42;10;NLMS;NL25_47;Waterschap Brabantse Delta;NL25
+43;10;NLMS;NL25_48;Waterschap Brabantse Delta;NL25
+44;10;NLMS;NL25_49;Waterschap Brabantse Delta;NL25
+45;10;NLMS;NL25_50;Waterschap Brabantse Delta;NL25
+46;10;NLMS;NL25_51;Waterschap Brabantse Delta;NL25
+47;10;NLMS;NL25_52;Waterschap Brabantse Delta;NL25
+48;10;NLMS;NL25_54;Waterschap Brabantse Delta;NL25
+49;10;NLMS;NL25_57;Waterschap Brabantse Delta;NL25
+50;10;NLMS;NL25_59;Waterschap Brabantse Delta;NL25
+51;10;NLMS;NL25_61;Waterschap Brabantse Delta;NL25
+52;10;NLMS;NL25_62;Waterschap Brabantse Delta;NL25
+53;10;NLMS;NL25_63;Waterschap Brabantse Delta;NL25
+705;10;NLSC;NL25_23;Waterschap Brabantse Delta;NL25
+706;10;NLSC;NL25_24;Waterschap Brabantse Delta;NL25
+707;10;NLSC;NL25_28;Waterschap Brabantse Delta;NL25
+708;10;NLSC;NL25_42;Waterschap Brabantse Delta;NL25
+709;10;NLSC;NL25_44;Waterschap Brabantse Delta;NL25
+710;10;NLSC;NL25_45;Waterschap Brabantse Delta;NL25
+54;10;NLMS;NL27_BE_1_2;Waterschap De Dommel;NL27
+55;10;NLMS;NL27_BE_3_2;Waterschap De Dommel;NL27
+56;10;NLMS;NL27_BO_1_2;Waterschap De Dommel;NL27
+57;10;NLMS;NL27_BO_2_2;Waterschap De Dommel;NL27
+58;10;NLMS;NL27_BO_3_2;Waterschap De Dommel;NL27
+59;10;NLMS;NL27_B_1_2;Waterschap De Dommel;NL27
+60;10;NLMS;NL27_B_2_2;Waterschap De Dommel;NL27
+61;10;NLMS;NL27_B_3_2;Waterschap De Dommel;NL27
+62;10;NLMS;NL27_KD_1_2;Waterschap De Dommel;NL27
+63;10;NLMS;NL27_KD_3_2;Waterschap De Dommel;NL27
+64;10;NLMS;NL27_L_1_2;Waterschap De Dommel;NL27
+65;10;NLMS;NL27_L_2_2;Waterschap De Dommel;NL27
+66;10;NLMS;NL27_R_1_2;Waterschap De Dommel;NL27
+67;10;NLMS;NL27_R_2_2;Waterschap De Dommel;NL27
+68;10;NLMS;NL27_R_3_2;Waterschap De Dommel;NL27
+69;10;NLMS;NL27_SD_1_2;Waterschap De Dommel;NL27
+70;10;NLMS;NL27_SD_2_2;Waterschap De Dommel;NL27
+71;10;NLMS;NL27_SD_3_2;Waterschap De Dommel;NL27
+72;10;NLMS;NL27_SD_5_2;Waterschap De Dommel;NL27
+73;10;NLMS;NL27_SD_6_2;Waterschap De Dommel;NL27
+74;10;NLMS;NL27_T_1_2;Waterschap De Dommel;NL27
+75;10;NLMS;NL27_Z_1_2;Waterschap De Dommel;NL27
+76;10;NLMS;NL27_Z_2_2;Waterschap De Dommel;NL27
+;10;NLMS;NL27_SD_3;Waterschap De Dommel;NL27
+;10;NLMS;NL27_SD_5;Waterschap De Dommel;NL27
+;10;NLMS;NL27_Z_2;Waterschap De Dommel;NL27
+;10;NLMS;NL27_R_1;Waterschap De Dommel;NL27
+;10;NLMS;NL27_SD_2;Waterschap De Dommel;NL27
+;10;NLMS;NL27_B_3;Waterschap De Dommel;NL27
+;10;NLMS;NL27_T_1;Waterschap De Dommel;NL27
+;10;NLMS;NL27_SD_6;Waterschap De Dommel;NL27
+;10;NLMS;NL27_R_2;Waterschap De Dommel;NL27
+;10;NLMS;NL27_BO_1;Waterschap De Dommel;NL27
+;10;NLMS;NL27_BE_1;Waterschap De Dommel;NL27
+;10;NLMS;NL27_SD_1;Waterschap De Dommel;NL27
+;10;NLMS;NL27_L_2;Waterschap De Dommel;NL27
+;10;NLMS;NL27_KD_1;Waterschap De Dommel;NL27
+;10;NLMS;NL27_BE_3;Waterschap De Dommel;NL27
+;10;NLMS;NL27_Z_1;Waterschap De Dommel;NL27
+;10;NLMS;NL27_L_1;Waterschap De Dommel;NL27
+;10;NLMS;NL27_B_2;Waterschap De Dommel;NL27
+;10;NLMS;NL27_BO_2;Waterschap De Dommel;NL27
+;10;NLMS;NL27_B_1;Waterschap De Dommel;NL27
+;10;NLMS;NL27_KD_3;Waterschap De Dommel;NL27
+;10;NLMS;NL27_BE_2;Waterschap De Dommel;NL27
+;10;NLMS;NL27_R_3;Waterschap De Dommel;NL27
+0;10;NLEM;NL33DA;Waterschap Hunze en Aa's;NL33
+1;10;NLEM;NL33DW_2;Waterschap Hunze en Aa's;NL33
+2;10;NLEM;NL33EW_2;Waterschap Hunze en Aa's;NL33
+3;10;NLEM;NL33FI_2;Waterschap Hunze en Aa's;NL33
+4;10;NLEM;NL33HM;Waterschap Hunze en Aa's;NL33
+5;10;NLEM;NL33HU;Waterschap Hunze en Aa's;NL33
+6;10;NLEM;NL33HV_2;Waterschap Hunze en Aa's;NL33
+7;10;NLEM;NL33KW_2;Waterschap Hunze en Aa's;NL33
+8;10;NLEM;NL33MP;Waterschap Hunze en Aa's;NL33
+9;10;NLEM;NL33NW_2;Waterschap Hunze en Aa's;NL33
+10;10;NLEM;NL33OA_2;Waterschap Hunze en Aa's;NL33
+11;10;NLEM;NL33OM;Waterschap Hunze en Aa's;NL33
+12;10;NLEM;NL33SM;Waterschap Hunze en Aa's;NL33
+13;10;NLEM;NL33WN;Waterschap Hunze en Aa's;NL33
+14;10;NLEM;NL33WZ;Waterschap Hunze en Aa's;NL33
+15;10;NLEM;NL33ZM;Waterschap Hunze en Aa's;NL33
+;10;NLEM;NL33NW;Waterschap Hunze en Aa's;NL33
+;10;NLEM;NL33FI;Waterschap Hunze en Aa's;NL33
+;10;NLEM;NL33EW;Waterschap Hunze en Aa's;NL33
+;10;NLEM;NL33OA;Waterschap Hunze en Aa's;NL33
+;10;NLEM;NL33DW;Waterschap Hunze en Aa's;NL33
+;10;NLEM;NL33HV;Waterschap Hunze en Aa's;NL33
+;10;NLEM;NL33KW;Waterschap Hunze en Aa's;NL33
+16;10;NLEM;NL34M100;Waterschap Noorderzijlvest;NL34
+17;10;NLEM;NL34M110;Waterschap Noorderzijlvest;NL34
+18;10;NLEM;NL34M113;Waterschap Noorderzijlvest;NL34
+530;10;NLRN;NL34M101;Waterschap Noorderzijlvest;NL34
+531;10;NLRN;NL34M102;Waterschap Noorderzijlvest;NL34
+532;10;NLRN;NL34M103;Waterschap Noorderzijlvest;NL34
+533;10;NLRN;NL34M104;Waterschap Noorderzijlvest;NL34
+534;10;NLRN;NL34M105;Waterschap Noorderzijlvest;NL34
+535;10;NLRN;NL34M106;Waterschap Noorderzijlvest;NL34
+536;10;NLRN;NL34M107;Waterschap Noorderzijlvest;NL34
+537;10;NLRN;NL34M108;Waterschap Noorderzijlvest;NL34
+538;10;NLRN;NL34M109;Waterschap Noorderzijlvest;NL34
+539;10;NLRN;NL34M111;Waterschap Noorderzijlvest;NL34
+540;10;NLRN;NL34M112;Waterschap Noorderzijlvest;NL34
+541;10;NLRN;NL34M114;Waterschap Noorderzijlvest;NL34
+542;10;NLRN;NL35_Boezem;Waterschap Drents Overijsselse Delta;NL35
+543;10;NLRN;NL35_Drentse_kanalen;Waterschap Drents Overijsselse Delta;NL35
+544;10;NLRN;NL35_Oude_Diep;Waterschap Drents Overijsselse Delta;NL35
+545;10;NLRN;NL35_Oude_Vaart;Waterschap Drents Overijsselse Delta;NL35
+546;10;NLRN;NL35_Reest;Waterschap Drents Overijsselse Delta;NL35
+547;10;NLRN;NL35_Vledder_Aa;Waterschap Drents Overijsselse Delta;NL35
+548;10;NLRN;NL35_Wapserveensche_Aa;Waterschap Drents Overijsselse Delta;NL35
+549;10;NLRN;NL35_Wold_Aa;Waterschap Drents Overijsselse Delta;NL35
+550;10;NLRN;NL36_OWM_001;Waterschap Vechtstromen;NL36
+551;10;NLRN;NL36_OWM_002;Waterschap Vechtstromen;NL36
+552;10;NLRN;NL36_OWM_004;Waterschap Vechtstromen;NL36
+553;10;NLRN;NL36_OWM_005;Waterschap Vechtstromen;NL36
+554;10;NLRN;NL36_OWM_006;Waterschap Vechtstromen;NL36
+555;10;NLRN;NL36_OWM_007;Waterschap Vechtstromen;NL36
+556;10;NLRN;NL36_OWM_009;Waterschap Vechtstromen;NL36
+557;10;NLRN;NL36_OWM_010;Waterschap Vechtstromen;NL36
+558;10;NLRN;NL36_OWM_011;Waterschap Vechtstromen;NL36
+559;10;NLRN;NL36_OWM_012;Waterschap Vechtstromen;NL36
+560;10;NLRN;NL36_OWM_013;Waterschap Vechtstromen;NL36
+561;10;NLRN;NL36_OWM_014;Waterschap Vechtstromen;NL36
+562;10;NLRN;NL36_OWM_015;Waterschap Vechtstromen;NL36
+563;10;NLRN;NL36_OWM_016;Waterschap Vechtstromen;NL36
+564;10;NLRN;NL36_OWM_017;Waterschap Vechtstromen;NL36
+565;10;NLRN;NL36_OWM_018;Waterschap Vechtstromen;NL36
+;10;NLRN;NL36_OWM_021;Waterschap Vechtstromen;NL36
+566;10;NLRN;NL37_ABC1_2013;Waterschap Zuiderzeeland;NL37
+567;10;NLRN;NL37_ABC2_2013;Waterschap Zuiderzeeland;NL37
+568;10;NLRN;NL37_BOVENWATER;Waterschap Zuiderzeeland;NL37
+569;10;NLRN;NL37_DE_2013;Waterschap Zuiderzeeland;NL37
+570;10;NLRN;NL37_FGIK_2013;Waterschap Zuiderzeeland;NL37
+571;10;NLRN;NL37_HARDERBROEK;Waterschap Zuiderzeeland;NL37
+572;10;NLRN;NL37_H_2013;Waterschap Zuiderzeeland;NL37
+573;10;NLRN;NL37_J_2013;Waterschap Zuiderzeeland;NL37
+574;10;NLRN;NL37_LEPELAARPLASSEN;Waterschap Zuiderzeeland;NL37
+575;10;NLRN;NL37_LMNOP_2013;Waterschap Zuiderzeeland;NL37
+576;10;NLRN;NL37_NOORDERPLASSEN;Waterschap Zuiderzeeland;NL37
+577;10;NLRN;NL37_OOSTVAARDERSPLASSEN;Waterschap Zuiderzeeland;NL37
+578;10;NLRN;NL37_Q_2013;Waterschap Zuiderzeeland;NL37
+579;10;NLRN;NL37_RS;Waterschap Zuiderzeeland;NL37
+580;10;NLRN;NL37_U;Waterschap Zuiderzeeland;NL37
+581;10;NLRN;NL37_V;Waterschap Zuiderzeeland;NL37
+582;10;NLRN;NL37_WEERWATER;Waterschap Zuiderzeeland;NL37
+583;10;NLRN;NL37_X;Waterschap Zuiderzeeland;NL37
+;10;NLRN;NL37_ABC1;Waterschap Zuiderzeeland;NL37
+;10;NLRN;NL37_Q;Waterschap Zuiderzeeland;NL37
+;10;NLRN;NL37_DE;Waterschap Zuiderzeeland;NL37
+;10;NLRN;NL37_Oostvaardersplassen;Waterschap Zuiderzeeland;NL37
+;10;NLRN;NL37_Lepelaarplassen;Waterschap Zuiderzeeland;NL37
+;10;NLRN;NL37_Weerwater;Waterschap Zuiderzeeland;NL37
+;10;NLRN;NL37_LMNOP;Waterschap Zuiderzeeland;NL37
+;10;NLRN;NL37_FGIK;Waterschap Zuiderzeeland;NL37
+;10;NLRN;NL37_Noorderplassen;Waterschap Zuiderzeeland;NL37
+;10;NLRN;NL37_Bovenwater;Waterschap Zuiderzeeland;NL37
+;10;NLRN;NL37_Harderbroek;Waterschap Zuiderzeeland;NL37
+;10;NLRN;NL37_ABC2;Waterschap Zuiderzeeland;NL37
+;10;NLRN;NL37_H;Waterschap Zuiderzeeland;NL37
+;10;NLRN;NL37_J;Waterschap Zuiderzeeland;NL37
+77;10;NLMS;NL38_1B;Waterschap Aa en Maas;NL38
+78;10;NLMS;NL38_1C;Waterschap Aa en Maas;NL38
+79;10;NLMS;NL38_1D;Waterschap Aa en Maas;NL38
+80;10;NLMS;NL38_1H;Waterschap Aa en Maas;NL38
+81;10;NLMS;NL38_1I;Waterschap Aa en Maas;NL38
+82;10;NLMS;NL38_2C;Waterschap Aa en Maas;NL38
+83;10;NLMS;NL38_2E;Waterschap Aa en Maas;NL38
+84;10;NLMS;NL38_2G;Waterschap Aa en Maas;NL38
+85;10;NLMS;NL38_2H;Waterschap Aa en Maas;NL38
+86;10;NLMS;NL38_2I;Waterschap Aa en Maas;NL38
+87;10;NLMS;NL38_2J_2;Waterschap Aa en Maas;NL38
+88;10;NLMS;NL38_2K;Waterschap Aa en Maas;NL38
+89;10;NLMS;NL38_3G;Waterschap Aa en Maas;NL38
+90;10;NLMS;NL38_3O;Waterschap Aa en Maas;NL38
+91;10;NLMS;NL38_3P;Waterschap Aa en Maas;NL38
+92;10;NLMS;NL38_3Q;Waterschap Aa en Maas;NL38
+93;10;NLMS;NL38_3R;Waterschap Aa en Maas;NL38
+94;10;NLMS;NL38_3S;Waterschap Aa en Maas;NL38
+95;10;NLMS;NL38_4E;Waterschap Aa en Maas;NL38
+96;10;NLMS;NL38_4K;Waterschap Aa en Maas;NL38
+97;10;NLMS;NL38_5A;Waterschap Aa en Maas;NL38
+98;10;NLMS;NL38_5D;Waterschap Aa en Maas;NL38
+99;10;NLMS;NL38_6F;Waterschap Aa en Maas;NL38
+100;10;NLMS;NL38_6G;Waterschap Aa en Maas;NL38
+101;10;NLMS;NL38_6H;Waterschap Aa en Maas;NL38
+102;10;NLMS;NL38_6J;Waterschap Aa en Maas;NL38
+103;10;NLMS;NL38_6K;Waterschap Aa en Maas;NL38
+104;10;NLMS;NL38_6O_2;Waterschap Aa en Maas;NL38
+105;10;NLMS;NL38_6P;Waterschap Aa en Maas;NL38
+106;10;NLMS;NL38_7D;Waterschap Aa en Maas;NL38
+107;10;NLMS;NL38_7F;Waterschap Aa en Maas;NL38
+108;10;NLMS;NL38_7G;Waterschap Aa en Maas;NL38
+109;10;NLMS;NL38_8F;Waterschap Aa en Maas;NL38
+110;10;NLMS;NL38_8G;Waterschap Aa en Maas;NL38
+111;10;NLMS;NL38_8I;Waterschap Aa en Maas;NL38
+112;10;NLMS;NL38_8J;Waterschap Aa en Maas;NL38
+113;10;NLMS;NL38_8K;Waterschap Aa en Maas;NL38
+114;10;NLMS;NL38_8O;Waterschap Aa en Maas;NL38
+115;10;NLMS;NL38_8P;Waterschap Aa en Maas;NL38
+116;10;NLMS;NL38_8Q;Waterschap Aa en Maas;NL38
+117;10;NLMS;NL38_8S;Waterschap Aa en Maas;NL38
+118;10;NLMS;NL38_8T;Waterschap Aa en Maas;NL38
+119;10;NLMS;NL38_8V;Waterschap Aa en Maas;NL38
+;10;NLMS;NL38_8U;Waterschap Aa en Maas;NL38
+;10;NLMS;NL38_2J;Waterschap Aa en Maas;NL38
+;10;NLMS;NL38_6O;Waterschap Aa en Maas;NL38
+584;10;NLRN;NL39_01a;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+585;10;NLRN;NL39_02a;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+586;10;NLRN;NL39_03a;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+587;10;NLRN;NL39_04a;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+588;10;NLRN;NL39_05a;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+589;10;NLRN;NL39_06a;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+590;10;NLRN;NL39_07a;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+591;10;NLRN;NL39_08a;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+592;10;NLRN;NL39_10a;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+593;10;NLRN;NL39_11a;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+594;10;NLRN;NL39_12a;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+595;10;NLRN;NL39_13a;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+596;10;NLRN;NL39_14a;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+597;10;NLRN;NL39_15a;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+598;10;NLRN;NL39_17a;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+599;10;NLRN;NL39_18a;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+600;10;NLRN;NL39_19a;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+601;10;NLRN;NL39_20a;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+602;10;NLRN;NL39_21a;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+603;10;NLRN;NL39_22a;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+604;10;NLRN;NL39_23a;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+605;10;NLRN;NL39_24a;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+606;10;NLRN;NL39_25a;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+607;10;NLRN;NL39_26a;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+;10;NLRN;NL39_01;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+;10;NLRN;NL39_14;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+;10;NLRN;NL39_18;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+;10;NLRN;NL39_09;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+;10;NLRN;NL39_15;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+;10;NLRN;NL39_02;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+;10;NLRN;NL39_17;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+;10;NLRN;NL39_06;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+;10;NLRN;NL39_05;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+;10;NLRN;NL39_22;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+;10;NLRN;NL39_21;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+;10;NLRN;NL39_20;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+;10;NLRN;NL39_10;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+;10;NLRN;NL39_11;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+;10;NLRN;NL39_24;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+;10;NLRN;NL39_08;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+;10;NLRN;NL39_23;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+;10;NLRN;NL39_03;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+;10;NLRN;NL39_13;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+;10;NLRN;NL39_19;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+;10;NLRN;NL39_12;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+;10;NLRN;NL39_04;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+;10;NLRN;NL39_07;Hoogheemraadschap van Schieland en Krimpenerwaard;NL39
+608;10;NLRN;NL43_01;Waterschap Vallei en Veluwe;NL43
+609;10;NLRN;NL43_02;Waterschap Vallei en Veluwe;NL43
+610;10;NLRN;NL43_03;Waterschap Vallei en Veluwe;NL43
+611;10;NLRN;NL43_04;Waterschap Vallei en Veluwe;NL43
+612;10;NLRN;NL43_05;Waterschap Vallei en Veluwe;NL43
+613;10;NLRN;NL43_06;Waterschap Vallei en Veluwe;NL43
+614;10;NLRN;NL43_07;Waterschap Vallei en Veluwe;NL43
+615;10;NLRN;NL43_08;Waterschap Vallei en Veluwe;NL43
+616;10;NLRN;NL43_09;Waterschap Vallei en Veluwe;NL43
+617;10;NLRN;NL43_10;Waterschap Vallei en Veluwe;NL43
+618;10;NLRN;NL43_11;Waterschap Vallei en Veluwe;NL43
+619;10;NLRN;NL43_12;Waterschap Vallei en Veluwe;NL43
+620;10;NLRN;NL43_13;Waterschap Vallei en Veluwe;NL43
+621;10;NLRN;NL43_14;Waterschap Vallei en Veluwe;NL43
+622;10;NLRN;NL43_15;Waterschap Vallei en Veluwe;NL43
+623;10;NLRN;NL43_16;Waterschap Vallei en Veluwe;NL43
+624;10;NLRN;NL43_17;Waterschap Vallei en Veluwe;NL43
+625;10;NLRN;NL43_18;Waterschap Vallei en Veluwe;NL43
+626;10;NLRN;NL43_19;Waterschap Vallei en Veluwe;NL43
+627;10;NLRN;NL43_20;Waterschap Vallei en Veluwe;NL43
+628;10;NLRN;NL43_21;Waterschap Vallei en Veluwe;NL43
+629;10;NLRN;NL43_22;Waterschap Vallei en Veluwe;NL43
+630;10;NLRN;NL43_23;Waterschap Vallei en Veluwe;NL43
+631;10;NLRN;NL43_24;Waterschap Vallei en Veluwe;NL43
+632;10;NLRN;NL43_25;Waterschap Vallei en Veluwe;NL43
+633;10;NLRN;NL43_26;Waterschap Vallei en Veluwe;NL43
+634;10;NLRN;NL43_27;Waterschap Vallei en Veluwe;NL43
+635;10;NLRN;NL43_28;Waterschap Vallei en Veluwe;NL43
+636;10;NLRN;NL43_29;Waterschap Vallei en Veluwe;NL43
+637;10;NLRN;NL43_30;Waterschap Vallei en Veluwe;NL43
+638;10;NLRN;NL43_31;Waterschap Vallei en Veluwe;NL43
+639;10;NLRN;NL43_32;Waterschap Vallei en Veluwe;NL43
+120;10;NLMS;NL57_AALS;Waterschap Limburg;NL57
+121;10;NLMS;NL57_AEF_ML;Waterschap Limburg;NL57
+122;10;NLMS;NL57_AEF_NL;Waterschap Limburg;NL57
+123;10;NLMS;NL57_ECKE;Waterschap Limburg;NL57
+124;10;NLMS;NL57_EVER;Waterschap Limburg;NL57
+125;10;NLMS;NL57_GELD;Waterschap Limburg;NL57
+126;10;NLMS;NL57_GRMB;Waterschap Limburg;NL57
+127;10;NLMS;NL57_HAEL;Waterschap Limburg;NL57
+128;10;NLMS;NL57_ITT;Waterschap Limburg;NL57
+129;10;NLMS;NL57_KWIS;Waterschap Limburg;NL57
+130;10;NLMS;NL57_LING;Waterschap Limburg;NL57
+131;10;NLMS;NL57_MP_BMP;Waterschap Limburg;NL57
+132;10;NLMS;NL57_NIER;Waterschap Limburg;NL57
+133;10;NLMS;NL57_OOST;Waterschap Limburg;NL57
+134;10;NLMS;NL57_ROGG;Waterschap Limburg;NL57
+135;10;NLMS;NL57_SCHE;Waterschap Limburg;NL57
+136;10;NLMS;NL57_SWAL;Waterschap Limburg;NL57
+137;10;NLMS;NL57_TIEL;Waterschap Limburg;NL57
+138;10;NLMS;NL57_TUNG;Waterschap Limburg;NL57
+;10;NLMS;NL57_TUN_01;Waterschap Limburg;NL57
+;10;NLMS;NL57_NOM_05;Waterschap Limburg;NL57
+;10;NLMS;NL57_NOM_01;Waterschap Limburg;NL57
+;10;NLMS;NL57_GRM_01;Waterschap Limburg;NL57
+;10;NLMS;NL57_NOM_03;Waterschap Limburg;NL57
+;10;NLMS;NL57_ZOM_01;Waterschap Limburg;NL57
+;10;NLMS;NL57_ZWM_01;Waterschap Limburg;NL57
+;10;NLMS;NL57_HAE_01;Waterschap Limburg;NL57
+;10;NLMS;NL57_ZOM_02;Waterschap Limburg;NL57
+;10;NLMS;NL57_NWM_01;Waterschap Limburg;NL57
+;10;NLMS;NL57_ZWM_02;Waterschap Limburg;NL57
+;10;NLMS;NL57_NOM_04;Waterschap Limburg;NL57
+;10;NLMS;NL57_NOM_02;Waterschap Limburg;NL57
+;10;NLMS;NL57_ROG_01;Waterschap Limburg;NL57
+;10;NLMS;NL57_OLB_02;Waterschap Limburg;NL57
+139;10;NLMS;NL58WRO01A;Waterschap Limburg;NL58
+140;10;NLMS;NL58WRO01B;Waterschap Limburg;NL58
+141;10;NLMS;NL58WRO02;Waterschap Limburg;NL58
+142;10;NLMS;NL58WRO03;Waterschap Limburg;NL58
+143;10;NLMS;NL58WRO04;Waterschap Limburg;NL58
+144;10;NLMS;NL58WRO05;Waterschap Limburg;NL58
+145;10;NLMS;NL58WRO06;Waterschap Limburg;NL58
+146;10;NLMS;NL58WRO07;Waterschap Limburg;NL58
+147;10;NLMS;NL58WRO10;Waterschap Limburg;NL58
+148;10;NLMS;NL58WRO18;Waterschap Limburg;NL58
+149;10;NLMS;NL58WRO27;Waterschap Limburg;NL58
+150;10;NLMS;NL58WRO30;Waterschap Limburg;NL58
+151;10;NLMS;NL58WRO30C;Waterschap Limburg;NL58
+152;10;NLMS;NL58WRO32;Waterschap Limburg;NL58
+153;10;NLMS;NL58WRO34;Waterschap Limburg;NL58
+154;10;NLMS;NL58WRO39;Waterschap Limburg;NL58
+155;10;NLMS;NL58WRO40;Waterschap Limburg;NL58
+156;10;NLMS;NL58WRO41;Waterschap Limburg;NL58
+157;10;NLMS;NL58WRO42;Waterschap Limburg;NL58
+158;10;NLMS;NL58WRO43;Waterschap Limburg;NL58
+19;10;NLEM;NL81_2;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL81
+20;10;NLEM;NL81_3;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL81
+640;10;NLRN;NL81_1;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL81
+641;10;NLRN;NL81_10;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL81
+642;10;NLRN;NL86_5;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL86
+643;10;NLRN;NL86_6;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL86
+644;10;NLRN;NL87_1;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL87
+159;10;NLMS;NL89_volkerak;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL89
+711;10;NLSC;NL89_antwknpd;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL89
+712;10;NLSC;NL89_grevlemr;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL89
+713;10;NLSC;NL89_kantnzgt;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL89
+714;10;NLSC;NL89_oostsde;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL89
+715;10;NLSC;NL89_spuiknl;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL89
+716;10;NLSC;NL89_veersmr;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL89
+717;10;NLSC;NL89_westsde;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL89
+718;10;NLSC;NL89_zoommedt;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL89
+719;10;NLSC;NL89_zwin;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL89
+;10;NLSC;nl89_kandzbvld;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL89
+;10;NLSC;nl89_oostsde;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL89
+;10;NLSC;nl89_veersmr;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL89
+;10;NLSC;nl89_westsde;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL89
+;10;NLSC;nl89_kantnzgt;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL89
+;10;NLSC;nl89_antwknpd;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL89
+;10;NLSC;nl89_grevlemr;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL89
+;10;NLSC;nl89_zoommedt;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL89
+160;10;NLMS;NL90_1;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL90
+161;10;NLMS;NL91BM;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL91
+162;10;NLMS;NL91BOM;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL91
+163;10;NLMS;NL91GM;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL91
+164;10;NLMS;NL91JK;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL91
+165;10;NLMS;NL91ZM;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL91
+645;10;NLRN;NL91MWK;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL91
+646;10;NLRN;NL92_IJSSELMEER;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL92
+647;10;NLRN;NL92_KETELMEER_VOSSEMEER;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL92
+648;10;NLRN;NL92_MARKERMEER;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL92
+649;10;NLRN;NL92_RANDMEREN_OOST;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL92
+650;10;NLRN;NL92_RANDMEREN_ZUID;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL92
+651;10;NLRN;NL92_ZWARTEMEER;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL92
+652;10;NLRN;NL93_7;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL93
+653;10;NLRN;NL93_8;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL93
+654;10;NLRN;NL93_IJSSEL;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL93
+655;10;NLRN;NL93_TWENTHEKANALEN;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL93
+166;10;NLMS;NL94_1;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL94
+167;10;NLMS;NL94_10;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL94
+168;10;NLMS;NL94_11;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL94
+169;10;NLMS;NL94_5;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL94
+170;10;NLMS;NL94_6;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL94
+656;10;NLRN;NL94_2;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL94
+657;10;NLRN;NL94_3;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL94
+658;10;NLRN;NL94_4;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL94
+659;10;NLRN;NL94_7;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL94
+660;10;NLRN;NL94_8;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL94
+661;10;NLRN;NL94_9;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL94
+171;10;NLMS;NL95_2A;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL95
+662;10;NLRN;NL95_3A;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL95
+663;10;NLRN;NL95_4A;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL95
+720;10;NLSC;NL95_1A;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL95
+;10;NLRN;NL95_4B;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL95
+;10;NLSC;NL95_1B;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL95
+;10;NLEM;NL95_5B;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL95
+;10;NLRN;NL95_3B;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL95
+;10;NLMS;NL95_2B;Ministerie van Infrastructuur en Waterstaat (Rijkswaterstaat);NL95
+665;10;NLRN;NL99_VechtZwarteWater;Rijkswaterstaat en WS Groot'salland ;NL99
+664;10;NLRN;NL99_Meppelerdiep;Rijkswaterstaat en WS Reest en Wieden ;NL99
+172;10;NLMS;NL99_5C_SD_4_2;WS De Dommel en WS Aa en Maas ;NL99
+173;10;NLMS;NL99_6_BO_BE_2;WS De Dommel en WS Aa en Maas ;NL99
+175;10;NLMS;NL99_BRA_02_3E;WS Peel & Maasvallei en WS Aa en Maas ;NL99
+176;10;NLMS;NL99_LOM;WS Peel & Maasvallei en WS Aa en Maas ;NL99
+177;10;NLMS;NL99_PEK;WS Peel & Maasvallei en WS Aa en Maas ;NL99
+174;10;NLMS;NL99_BRA_01_KD_2_2;WS Peel & Maasvallei en WS De Dommel ;NL99
