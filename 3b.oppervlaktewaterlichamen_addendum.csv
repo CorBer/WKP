@@ -1,13 +1,13 @@
 Waterlichaam.Identificatie;Waterlichaam.Omschrijving;Waterbeheerder.Code;Waterbeheerder.Omschrijving;Provincie.Naam;Stroomgebieddistrict.Code;Deelstroomgebieddistrict.Code;Status;Waterlichaam.type;Waterlichaam.doeltype;Drinkwateronttrekking;Versie
-NL14_1;Langbroekerwetering;14;Hoogheemraadschap De Stichtse Rijnlanden;Provincie Utrecht;NLRN;NLRNWE;Kunstmatig;M1a;M1a;;15
-NL14_2;Kromme Rijn;14;Hoogheemraadschap De Stichtse Rijnlanden;Provincie Utrecht;NLRN;NLRNWE;Sterk veranderd;R6;R6;;15
-NL14_3;Westerlaak;14;Hoogheemraadschap De Stichtse Rijnlanden;Provincie Utrecht;NLRN;NLRNWE;Kunstmatig;M1a;M1a;;15
-NL14_4;Honswijk;14;Hoogheemraadschap De Stichtse Rijnlanden;Provincie Utrecht;NLRN;NLRNWE;Kunstmatig;M1a;M1a;;15
-NL14_5;Biltse Grift;14;Hoogheemraadschap De Stichtse Rijnlanden;Provincie Utrecht;NLRN;NLRNWE;Kunstmatig;M3;M3;;15
-NL14_6;Ravensewetering;14;Hoogheemraadschap De Stichtse Rijnlanden;Provincie Utrecht;NLRN;NLRNWE;Kunstmatig;M1a;M1a;;15
-NL14_7;Merwedekanaal;14;Hoogheemraadschap De Stichtse Rijnlanden;Provincie Utrecht;NLRN;NLRNWE;Kunstmatig;M7b;M7b;;15
-NL14_8;Binnenstad Utrecht;14;Hoogheemraadschap De Stichtse Rijnlanden;Provincie Utrecht;NLRN;NLRNWE;Kunstmatig;M3;M3;;15
-NL14_9;Maartensdijk;14;Hoogheemraadschap De Stichtse Rijnlanden;Provincie Utrecht;NLRN;NLRNWE;Kunstmatig;M3;M3;;15
-NL38_3P;Onbekend;38;Waterschap Aa en Maas;Onbekend;NLMS;NLMS;Sterk veranderd;R5;R5;;17
-NL38_6F;Onbekend;38;Waterschap Aa en Maas;Onbekend;NLMS;NLMS;Sterk veranderd;R5;R5;;17
-NL27_BO_3_2;Onbekend;27;Waterschap De Dommel;Onbekend;NLMS;NLMS;Sterk veranderd;R5;R5;;17
+NL14_1;Langbroekerwetering;14;Hoogheemraadschap De Stichtse Rijnlanden;Provincie Utrecht;NLRN;NLRNWE;Kunstmatig;M1a;M1a;;10
+NL14_2;Kromme Rijn;14;Hoogheemraadschap De Stichtse Rijnlanden;Provincie Utrecht;NLRN;NLRNWE;Sterk veranderd;R6;R6;;10
+NL14_3;Westerlaak;14;Hoogheemraadschap De Stichtse Rijnlanden;Provincie Utrecht;NLRN;NLRNWE;Kunstmatig;M1a;M1a;;10
+NL14_4;Honswijk;14;Hoogheemraadschap De Stichtse Rijnlanden;Provincie Utrecht;NLRN;NLRNWE;Kunstmatig;M1a;M1a;;10
+NL14_5;Biltse Grift;14;Hoogheemraadschap De Stichtse Rijnlanden;Provincie Utrecht;NLRN;NLRNWE;Kunstmatig;M3;M3;;10
+NL14_6;Ravensewetering;14;Hoogheemraadschap De Stichtse Rijnlanden;Provincie Utrecht;NLRN;NLRNWE;Kunstmatig;M1a;M1a;;10
+NL14_7;Merwedekanaal;14;Hoogheemraadschap De Stichtse Rijnlanden;Provincie Utrecht;NLRN;NLRNWE;Kunstmatig;M7b;M7b;;10
+NL14_8;Binnenstad Utrecht;14;Hoogheemraadschap De Stichtse Rijnlanden;Provincie Utrecht;NLRN;NLRNWE;Kunstmatig;M3;M3;;10
+NL14_9;Maartensdijk;14;Hoogheemraadschap De Stichtse Rijnlanden;Provincie Utrecht;NLRN;NLRNWE;Kunstmatig;M3;M3;;10
+NL38_3P;Kleine Aa;38;Waterschap Aa en Maas;Provincie Brabant;NLMS;NLMS;Sterk veranderd;R5;R5;;10
+NL38_6F;Halsche Beek en Hooge Raam;38;Waterschap Aa en Maas;Provincie Brabant;NLMS;NLMS;Sterk veranderd;R5;R5;;10
+NL27_BO_3_2;Keersop/ Beekloop;27;Waterschap De Dommel;Provincie Brabant;NLMS;NLMS;Sterk veranderd;R5;R5;;10
