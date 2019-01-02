@@ -1,11 +1,18 @@
 import WKP
 from ipywidgets import widgets
+from IPython.display import clear_output
+import qgrid
+
 #debug view
 debug_view = widgets.Output(layout={'border': '1px solid black'})
 
 #out = widgets.Output(layout={'border': '2px solid blue' })
 #out = widgets.Output(layout=dict(height='500px', overflow_y='auto', overflow_x='auto', border='1px solid blue'))
 out = widgets.Output(layout=widgets.Layout(overflow_y='scroll'))
+out1= widgets.Output(layout={'border': '1px solid black'})
+
+#declare tabs as global at start
+selectedtab=0
 
 oordeelset=[]
 
@@ -21,6 +28,14 @@ groupselector=widgets.RadioButtons(
     description='Selectie :',
     disabled=False
 )
+
+group1selector=widgets.RadioButtons(
+    options=['algemeen', 'chemie'],
+    value='chemie',
+    description='Stats :',
+    disabled=False
+)
+
 
 methodselector=widgets.RadioButtons(
     options=['TT_OM', 'TT','OM'],
@@ -69,45 +84,95 @@ Usedeelstroom=widgets.Checkbox(
     description='Show deelstroomgebieden',
     disabled=False
 )
+
+containerleft = widgets.VBox([groupselector, stofselectie,  typeselectie, showtable])
+containerright = widgets.VBox([methodselector, bepalingselector])
+containermid = widgets.VBox([SGselector,gebiedselectie,Usedeelstroom])
+widgetcontainer = widgets.HBox([containerleft,containermid, containerright])
+fullcontainer = widgets.VBox([widgetcontainer,debug_view])
+    
+container1left = widgets.VBox([group1selector, typeselectie, showtable])
+widget1container = widgets.HBox([container1left,containermid, containerright])
+full1container = widgets.VBox([widget1container,debug_view])
+           
+tabs = widgets.Tab()
+children=[fullcontainer, full1container ,out1]
+tabs.children=children
+tabs.set_title(0, 'oordeel')
+tabs.set_title(1, 'counts')
+tabs.set_title(2, 'dataset')
+    
+import ipython_memory_usage.ipython_memory_usage as imu
+
 #main routine
 @debug_view.capture(clear_output=True)
 def changeview():
-    
     global oordeelset
+    
+    #specific for oordeel graphs
     subset=oordeelset[(oordeelset['oordeelsoort_code']==methodselector.value)]
+    
     fullsize=subset.shape[0]
     
     if bepalingselector.value!='all':
            subset=subset[(subset['waardebepalingsmethode_code']==bepalingselector.value)]
+            
     if typeselectie.value!='all':
-           subset=subset[(subset['waterlichaam_type']==typeselectie.value)]
+               subset=subset[(subset['waterlichaam_type']==typeselectie.value)]
+
     if SGselector.value!='all':
         subset=subset[(subset['stroomgebieddistrict_code']==SGselector.value)]
     
-    if stofselectie.value!='all':
-        if groupselector.value!='chemie':
-          subset=subset[(subset.typering_omschrijving==stofselectie.value)]
-        else:
-          subset=subset[(subset.chemischestof_omschrijving==stofselectie.value)]  
-   
-    print('selected %s %s %s [%d/%d records]'%(methodselector.value,stofselectie.value, 
-                                               bepalingselector.value, subset.shape[0],fullsize))
-    with out:
-        out.clear_output()
-        if subset.shape[0]==0:
+    #only for oordeel tab
+    if tabs.get_title(tabs.selected_index)=="oordeel":
+        if stofselectie.value!='all':
+            if groupselector.value!='chemie':
+              subset=subset[(subset.typering_omschrijving==stofselectie.value)]
+            else:
+              subset=subset[(subset.chemischestof_omschrijving==stofselectie.value)]  
+
+    if subset.shape[0]==0:
+        with out:
+           clear_output(wait=True)
            print('No data available')
            return
         
-        if gebiedselectie.value=='stroomgebied':
-           WKP.display_stroomgebied_oordeel(subset, showtable.value, stofselectie.value)
-        if gebiedselectie.value=='waterschap':
-           WKP.display_waterbeheerder_oordeel(subset,  showtable.value,  stofselectie.value)
-        
+    with out1:
+        clear_output(wait=True)
+        print('generate output')
+        if groupselector.value!='chemie': 
+            subset1=subset[['stroomgebieddistrict_code','waterbeheerder_omschrijving','waterlichaam_identificatie',
+                            'rapportagejaar','typering_omschrijving',
+                           'waardebepalingsmethode_code','oordeelsoort_code','oordeel' ]]
+        else:
+            subset1=subset[['stroomgebieddistrict_code','waterbeheerder_omschrijving','waterlichaam_identificatie',
+                           'rapportagejaar','chemischestof_omschrijving',
+                           'waardebepalingsmethode_code','oordeelsoort_code','oordeel' ]]
+        qgrid_widget = qgrid.show_grid(subset1)
+        display(qgrid_widget)
+    
+    
+    with out:
+        clear_output(wait=True)
+        #print('selected %s %s %s [%d/%d records]'%(methodselector.value,stofselectie.value, 
+        #                                       bepalingselector.value, subset.shape[0],fullsize))
+        #oordeel tab
+        if tabs.get_title(tabs.selected_index)=="oordeel":
+            print('selected %s %s %s [%d/%d records]'%(methodselector.value,stofselectie.value, 
+                                               bepalingselector.value, subset.shape[0],fullsize))
+            if gebiedselectie.value=='stroomgebied':
+                   WKP.display_stroomgebied_oordeel(subset, showtable.value, stofselectie.value)
+            if gebiedselectie.value=='waterschap':
+                   WKP.display_waterbeheerder_oordeel(subset,  showtable.value,  stofselectie.value)
+        #stats tab            
+        if tabs.get_title(tabs.selected_index)=="counts":
+             WKP.display_stroomgebied_counts(subset, showtable.value, group1selector.value, gebiedselectie.value)
+         
 
 def selector_change(change):
     if groupselector.value!='chemie':
         stoffen=oordeelset['typering_omschrijving'].dropna().unique()
-    else:
+    if groupselector.value!='algemeen':
         stoffen=oordeelset['chemischestof_omschrijving'].dropna().unique()
     
     stoffen=sorted(stoffen)
@@ -117,13 +182,20 @@ def response(change):
        WKP.Usedeelstroom=Usedeelstroom.value 
        changeview()
     
-  
-def init(dataset):
+def tabresponse(change):
+      if tabs.get_title(tabs.selected_index)!="dataset":
+         changeview()
+    
+def init():
+    
     global oordeelset
-    stoffen=dataset['typering_omschrijving'].dropna().unique()
+    WKP.verbose=False
+    oordeelset=WKP.load_merge()
+    
+    stoffen=oordeelset['typering_omschrijving'].dropna().unique()
     stoffen=sorted(stoffen)
     stofselectie.options=stoffen
-    oordeelset=dataset
+    #oordeelset=dataset
     
     wtypes=sorted(oordeelset['waterlichaam_type'].dropna().unique())
     wtypes=sorted(wtypes)
@@ -134,21 +206,19 @@ def init(dataset):
     typeselectie.observe(response, names="value")
     gebiedselectie.observe(response, names="value")
     groupselector.observe(selector_change, names="value" )
+    group1selector.observe(response, names="value" )
     methodselector.observe(response, names="value" )
     SGselector.observe(response, names="value" )
     bepalingselector.observe(response, names="value" )
     showtable.observe(response, names="value")
     checkwaterbeheer.observe(response, names="value" )
     Usedeelstroom.observe(response, names="value" )
-
-    #VISUAL
-    containerleft = widgets.VBox([groupselector, stofselectie,  typeselectie, showtable])
-    containerright = widgets.VBox([methodselector, bepalingselector])
-    containermid = widgets.VBox([SGselector,gebiedselectie,Usedeelstroom])
-    widgetcontainer = widgets.HBox([containerleft,containermid, containerright])
-    fullcontainer = widgets.VBox([widgetcontainer,debug_view])
-    display(fullcontainer)
+    tabs.observe(tabresponse, names="selected_index")
+    
+    display(tabs)
     display(out)
+    selector_change(out)
     changeview()
+    return oordeelset
 
     
