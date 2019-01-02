@@ -60,7 +60,7 @@ def load_lokatie():
     for filename in locfiles:
         locd=pd.read_csv(localdir+filename, sep=';', dtype=object, encoding='latin1')
         locd.columns = locd.columns.str.strip().str.lower().str.replace(' ', '_').str.replace('.', '_').str.replace(')', '')
-        lokaties=pd.concat([lokaties, locd])
+        lokaties=pd.concat([lokaties, locd], sort=False)
     #nr of records originally
     oldsize=lokaties.shape[0]    
     #restrict the fields 
@@ -93,7 +93,7 @@ def load_oordeel():
     dataframe=pd.DataFrame()
     for filename in datafiles:
         locd=pd.read_csv(localdir+filename, sep=';', dtype=object, encoding='latin1')
-        dataframe=pd.concat([dataframe, locd])
+        dataframe=pd.concat([dataframe, locd], sort=False)
     #convert to lowercase without dots and spaces    
     dataframe=dataframe[[#'ChemischeStof.Code', 
                          'ChemischeStof.Omschrijving', 'Grootheid.Code',
