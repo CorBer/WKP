@@ -102,7 +102,7 @@ tabs.set_title(0, 'oordeel')
 tabs.set_title(1, 'counts')
 tabs.set_title(2, 'dataset')
     
-import ipython_memory_usage.ipython_memory_usage as imu
+
 
 #main routine
 @debug_view.capture(clear_output=True)
