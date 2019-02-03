@@ -6,3 +6,4 @@ holoviews
 param
 panel
 hvplot
+tables
