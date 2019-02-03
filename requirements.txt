@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+qgrid
+holoviews
+param
+panel
+hvplot
+tables
