@@ -1,5 +1,6 @@
 numpy
 pandas
+geopandas
 matplotlib
 qgrid
 holoviews
@@ -7,3 +8,4 @@ param
 panel
 hvplot
 tables
+natsort
